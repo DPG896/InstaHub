@@ -1,7 +1,7 @@
 name: InstaHub
 main: DPGD896\Hub\Main
 author: DENPlayz414502
-api: [3.0.0, 3.22.4]
+api: [3.0.0, 3.22.5]
 version: 1.0pre-release
 commands:
      hub:
