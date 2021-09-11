@@ -29,7 +29,7 @@ class Main extends PluginBase implements Listener {
 	               if($sender instanceof Player){
                                //teleport player to default world and get spawn is safe to player
 		               $sender->teleport($this->getServer()->getDefaultLevel()->getSafeSpawn());
-                               $sender->addTitle($this->config->get("title-hub", $this->config->get("sub-hub"),);
+                               $sender->addTitle($this->config->get("title-hub"), $this->config->get("sub-hub"),);;
                                $sender->sendMessage($this->config->get("message-hub"));
 		               //$sender->addtitle("Teleported", "to Lobby!",);
 		               //$sender->sendMessage("Teleported!");
