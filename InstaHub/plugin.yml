@@ -1,7 +1,7 @@
 name: InstaHub
 main: DPGD896\Hub\Main
-author: DPGD896, ItsRealNise
-api: [3.0.0, 3.22.5]
+author: DPGD896
+api: 3.0.0
 version: 1.0
 commands:
      hub:
