@@ -31,8 +31,8 @@ class Main extends PluginBase implements Listener {
 		               $sender->teleport($this->getServer()->getDefaultLevel()->getSafeSpawn());
                                $sender->addTitle($this->config->get("title-hub"), $this->config->get("sub-hub"),);;
                                $sender->sendMessage($this->config->get("message-hub"));
-		               //$sender->addtitle("Teleported", "to Lobby!",);
-		               //$sender->sendMessage("Teleported!");
+		               //$sender->addtitle("§a§lTeleported", "§7§lto Lobby!",);
+		               //$sender->sendMessage("§aTeleported!");
                   }
 	     }
 	return true;
