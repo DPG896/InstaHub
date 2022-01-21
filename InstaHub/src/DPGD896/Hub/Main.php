@@ -13,11 +13,11 @@ use pocketmine\command\CommandSender;
 class Main extends PluginBase {
 
     public function onEnable(): void {
-        $this->getLogger()->info("Plugin Enabled");
+        $this->getLogger()->info("HubPM4 Beta");
     }
 
     public function onDisable(): void {
-        $this->getLogger()->info("Plugin Disabled")
+        $this->getLogger()->info("HubPM4 Beta")
     }
 
     public function onCommand(CommandSender $sender , Command $cmd, String $label, Array $args) : bool {
