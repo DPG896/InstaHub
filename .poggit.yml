@@ -1,7 +1,7 @@
 --- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/DPG896/InstaHub
 build-by-default: true
 branches:
-- senpai
+- 
 projects:
   InstaHub:
     path: InstaHub/
