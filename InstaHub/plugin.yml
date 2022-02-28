@@ -1,8 +1,16 @@
 name: InstaHub
-main: DPGD896\Hub\Main
-author: DPGD896
-api: 3.0.0
-version: 1.3
+version: 2.0.0
+main: DPGD896/Hub/main
+api: 4.0.0
+author: DENPlayz414502
+
 commands:
-     hub:
-      description: "§eTeleport you to Main Lobby"
+  hub:
+    usage: /hub
+    description: Teleport to Main Lobby
+    permission: insta.hub
+    
+permissions:
+  insta.hub:
+    description: Teleport to Main Lobby
+    default: true
