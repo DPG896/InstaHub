@@ -1,5 +1,6 @@
 # InstaHub
 A Pocketmine-MP Plugin that will teleport you to main lobby INSTANTLY!
+<a href="https://discord.gg/k4EsXTPSm4"><img src="https://img.shields.io/discord/373199722573201408?label=discord&color=7289DA&logo=discord" alt="Discord" /></a>
 
 # My First Plugin EVER!
 As a newbie, i'm trying to learn new things in pocketmine. Like this plugin
