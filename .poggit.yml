@@ -5,4 +5,5 @@ branches:
 projects:
   InstaHub:
     path: InstaHub/
+    icon: icon.png
 ...
