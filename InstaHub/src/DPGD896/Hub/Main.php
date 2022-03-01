@@ -27,7 +27,7 @@ class main extends PluginBase implements Listener {
           switch($cmd->getName()){
                  case "hub":
                    if ($sender->hasPermission("insta.hub")){
-                                   $world = $this->getServer()->getWorldManager()->getWorldByName("world");
+                                   $world = $this->getServer()->getWorldManager()->getWorldByName($this->getConfig()->get("world"));
                        $sender->teleport($world->getSafeSpawn());
                        $sender->sendtitle($this->getConfig()->get("title"), $this->getConfig()->get("subtitle"),);
                        $sender->sendMessage($this->getConfig()->get("message-to-player"));
