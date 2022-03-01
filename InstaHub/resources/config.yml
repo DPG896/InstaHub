@@ -1,0 +1,12 @@
+---
+# Config file of InstaHub
+
+# If you're having problems with this plugin, Contact us on discord https://discord.thedpg.tk
+
+# Lobby
+world: ""
+
+# Messages when a player triggered a command:
+title: "Tepeorted"
+subtitle: "To Lobby!"
+message-to-player: "You have been teleported!"
