@@ -3,7 +3,7 @@
 namespace DPGD896\Hub;
 
 use pocketmine\Server;
-use pocketmine\Player;
+use pocketmine\player\Player;
 
 use pocketmine\plugin\PluginBase;
 
@@ -13,7 +13,7 @@ use pocketmine\command\CommandSender;
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\event\Listener;
 
-class main extends PluginBase implements Listener {
+class Main extends PluginBase implements Listener {
     
     public function onEnable() : void{
         @mkdir($this->getDataFolder());
@@ -23,17 +23,15 @@ class main extends PluginBase implements Listener {
     
     
     public function onCommand(CommandSender $sender, Command $cmd, String $label, Array $args): bool {
-    
           switch($cmd->getName()){
                  case "hub":
                    if ($sender->hasPermission("insta.hub")){
-                                   $world = $this->getServer()->getWorldManager()->getWorldByName($this->getConfig()->get("world"));
+                       $world = $this->getServer()->getWorldManager()->getWorldByName($this->getConfig()->get("world"));
                        $sender->teleport($world->getSafeSpawn());
-                       $sender->sendtitle($this->getConfig()->get("title"), $this->getConfig()->get("subtitle"),);
+                       $sender->addTitle($this->getConfig()->get("title"), $this->getConfig()->get("subtitle"),);
                        $sender->sendMessage($this->getConfig()->get("message-to-player"));
                   }
          }
       return true;
     }
-
 }
