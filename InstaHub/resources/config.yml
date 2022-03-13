@@ -1,6 +1,13 @@
 ---
 # Config file of InstaHub
 
+#  ____  ____   ____ 
+# |  _ \|  _ \ / ___|
+# | | | | |_) | |  _ 
+# | |_| |  __/| |_| |
+# |____/|_|    \____|
+                    
+
 # If you're having problems with this plugin, Contact us on discord https://discord.thedpg.tk
 
 # Lobby
@@ -10,4 +17,6 @@ world: ""
 title: "Teleported"
 subtitle: "To Lobby!"
 message-to-player: "You have been teleported!"
+
+# DPG (Behalf of MaharliKraft Network) | All Rights Reserved
 ---
