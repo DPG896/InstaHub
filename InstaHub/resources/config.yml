@@ -18,5 +18,8 @@ title: "Teleported"
 subtitle: "To Lobby!"
 message-to-player: "Change this on config.yml!"
 
+# Message when an admin typed the command on console:
+console-error: "Run this in-game!!"
+
 # DPG (Behalf of MaharliKraft Network) | All Rights Reserved
 ---
