@@ -11,12 +11,12 @@
 # If you're having problems with this plugin, Contact us on discord https://discord.thedpg.tk
 
 # Lobby
-world: ""
+world: "world"
 
 # Messages when a player triggered a command:
 title: "Teleported"
 subtitle: "To Lobby!"
-message-to-player: "You have been teleported!"
+message-to-player: "Change this on config.yml!"
 
 # DPG (Behalf of MaharliKraft Network) | All Rights Reserved
 ---
