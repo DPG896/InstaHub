@@ -30,7 +30,7 @@ class Main extends PluginBase implements Listener {
                         $sender->sendTitle($this->getConfig()->get("title"), $this->getConfig()->get("subtitle"),);
                         $sender->sendMessage($this->getConfig()->get("message-to-player"));
                     } else {
-                        $sender->sendMessage("Run the command only in the game!");
+                        $sender->sendMessage($this->getConfig()->get("console-error"));
                     }
                 }
             break;
