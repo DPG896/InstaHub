@@ -27,7 +27,7 @@ class Main extends PluginBase implements Listener {
                     if($sender instanceof Player) {
                         $world = $this->getServer()->getWorldManager()->getWorldByName($this->getConfig()->get("world"));
                         $sender->teleport($world->getSafeSpawn());
-                        $sender->addTitle($this->getConfig()->get("title"), $this->getConfig()->get("subtitle"),);
+                        $sender->sendTitle($this->getConfig()->get("title"), $this->getConfig()->get("subtitle"),);
                         $sender->sendMessage($this->getConfig()->get("message-to-player"));
                     } else {
                         $sender->sendMessage("Run the command only in the game!");
