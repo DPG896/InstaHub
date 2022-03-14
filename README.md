@@ -1,5 +1,5 @@
 # InstaHub
-A Pocketmine-MP Plugin that will teleport you to main lobby INSTANTLY!
+A simple API that will teleport you to Lobby
 
 # How to Install?
 1. Download the plugin as `.phar`
@@ -37,4 +37,4 @@ A Pocketmine-MP Plugin that will teleport you to main lobby INSTANTLY!
  ​---
 ```
 # Bugs?
-Create an issue for sneaky bugs. And i'm ready to fix it as soon as possible
+Create an issue or pull request for bugs. You can also join my [Discord Server Here](https://discord.thedpg.tk)
