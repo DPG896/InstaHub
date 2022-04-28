@@ -1,8 +1,8 @@
 name: InstaHub
-version: 2.2.1
+version: 2.2.2
 main: DPGD896\Hub\Main
 api: 4.0.0
-author: DENPlayz414502
+author: DPGNotFound
 
 commands:
   hub:
