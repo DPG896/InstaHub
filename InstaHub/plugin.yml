@@ -1,5 +1,5 @@
 name: InstaHub
-version: 2.2.0
+version: 2.2.1
 main: DPGD896\Hub\Main
 api: 4.0.0
 author: DENPlayz414502
@@ -8,7 +8,7 @@ commands:
   hub:
     usage: /hub
     description: Teleport to Main Lobby
-    permission: insta.hub
+    permission: instahub.command
     
 permissions:
   insta.hub:
