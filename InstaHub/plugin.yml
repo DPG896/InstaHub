@@ -11,6 +11,6 @@ commands:
     permission: instahub.command
     
 permissions:
-  insta.hub:
+  instahub.command:
     description: Teleport to Main Lobby
     default: true
