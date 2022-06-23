@@ -22,7 +22,7 @@ class Main extends PluginBase implements Listener {
     public function onCommand(CommandSender $sender, Command $cmd, String $label, Array $args): bool {
         switch($cmd->getName()){
             case "hub":
-                if($sender->hasPermission("instahub.command")){
+                if($sender->hasPermission("insta.cmd")){
                     if($sender instanceof Player) {
                         $world = $this->getServer()->getWorldManager()->getWorldByName($this->getConfig()->get("world"));
                         $sender->teleport($world->getSafeSpawn());
