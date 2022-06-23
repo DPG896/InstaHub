@@ -8,9 +8,9 @@ commands:
   hub:
     usage: /hub
     description: Teleport to Main Lobby
-    permission: instahub.command
+    permission: insta.cmd
     
 permissions:
-  instahub.command:
+  insta.cmd:
     description: Teleport to Main Lobby
     default: true
